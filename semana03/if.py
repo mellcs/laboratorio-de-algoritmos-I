@@ -1,7 +1,7 @@
 idade = int(input("Digite a sua idade:"))
 
-if idade >= 18: 
-    print("Você pode tirar a carteira de motorista!")
+if idade >= 16: 
+    print("Você pode votar!")
 
 else:
-    print("Você não pode tirar a carteira de motorista.")
+    print("Você não pode votar.")
