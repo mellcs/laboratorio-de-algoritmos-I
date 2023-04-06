@@ -1,0 +1,11 @@
+totalnotas = 0
+somanotas = 0
+
+while totalnotas < 5:
+  nota = float(input("Digite a nota"))
+  somanotas = somanotas + nota
+  toalnotas = totalnotas + 1
+  
+  #fora do while
+  media = somanotas / 5
+  print("A média das notas é:" , media)
